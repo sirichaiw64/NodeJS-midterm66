@@ -17,7 +17,7 @@ app.get('/hello/:name', function (req,res) {
     res.send('sey hello with ' + req.params.name) 
    })
 
-let port = 809
+let port = 1
 app.listen(port, function(){
     console.log('server running on ' + port)
 })
